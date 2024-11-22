@@ -1,0 +1,53 @@
+/* defining styles for interest calc */
+#main{
+    width:320px;
+    height:360px;
+    background:blue;
+    color:white;
+    margin:auto;
+    border-radius:15px;
+    padding:15px;
+    transition:linear 600ms;
+  }
+  #main:hover{
+    box-shadow:0 0 25px red;
+  }
+  h2{
+    text-align:center;
+    text-decoration:1px wavy underline;
+  }
+  #main div{
+    margin-bottom:15px;
+  }
+  label,input,span,output{
+    font-size:20px;
+  }
+  input{
+    border:none;
+    outline:none;
+    background:blue;
+    border-bottom:2px solid white;
+    color:white;
+  }
+  button{
+    width:180px;
+    height:30px;
+    font-size:21px;
+    border:0;
+    outline:0;
+    cursor:pointer;
+    background:linear-gradient(to right, black, hotpink);
+    color:white;
+    border-radius:4px;
+    transition:linear all 500ms;
+  }
+  button:hover{
+    background:linear-gradient(to left, black, hotpink);
+    border-radius:15px;
+  }
+  output{
+    color:yellow;	
+  }
+  #main div:nth-child(5){
+      text-align:center;
+  }

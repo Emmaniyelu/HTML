@@ -1,0 +1,31 @@
+<!-- changing to darkmode or litemode -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+	<style>
+		.c{
+			background-color:black;
+			color:white;
+		}
+	</style>
+ </head>
+ <body>
+	<h1>Distribution of the evaluation version</h1>
+	<p>You may copy the evaluation version of this software and documentation as you wish, and give exact copies of the original evaluation version to anyone, and distribute the evaluation version of the software and documentation in its unmodified form via electronic means. But you should not charge or requesting donations for any such copies however made and from distributing the software and/or documentation with other products without the author's written permission.</p>
+		<hr>
+		<label>Username</label> <br>
+		<input type="text"/> <bR>
+		<label>Password</label>
+		<input type="password"/> <br>
+		<button>Login</button> <br>
+		<br>
+		<button id="bt">Dark/Lite</button>
+	<script>
+		document.getElementById("bt").onclick=function(){
+													document.body.classList.toggle("c");
+												}
+	</script>
+ </body>
+</html>

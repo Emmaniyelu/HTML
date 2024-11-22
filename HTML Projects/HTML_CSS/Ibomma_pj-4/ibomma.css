@@ -1,0 +1,73 @@
+/* defining styles for my bomma */
+body{
+	background:#252525;
+}
+/* styles for header section */
+header{
+	background:#3b3b3b;
+	padding-left:50px;
+	border-radius:5px;
+}
+header img{
+	width:130px;
+	height:80px;
+}
+/* styles for slogan section */
+article{
+	text-align:center;
+	color:#fff;
+	margin-top:50px;
+	margin-bottom:100px;
+}
+article div{
+	font-size:42px;
+	font-family:Rockwell;
+}
+article p{
+	font-size:20px;	
+}
+/* styles for grid layout */
+.grid-box{		 
+	width:80%;	 /* body*0.8 */ 
+	margin:auto;
+	display:grid;   /* NRx1C */
+/*	grid-template-columns:200px 300px 300px;	OR	
+	grid-template-columns:30% 30% 30%;	OR */
+	grid-template-columns:auto auto auto auto; /* 80%/4 => 20% */
+	/* column-gap:10px;
+	row-gap:10px;		OR	*/
+	grid-gap:10px;
+}
+.grid-box img{
+	width:100%;  /* 20% */
+	height:350px;
+	border-radius:15px;
+	transition: 300ms;
+}
+.grid-box img:hover{
+	transform:rotateY(180deg);
+}
+.grid-box a{
+	color:yellow;
+	text-decoration:none;
+	font-size:20px;
+}
+.grid-box a:hover{
+	color:white;
+	text-decoration:underline;
+}
+.grid-box span{
+	color:cyan;
+}
+footer{
+	background:#3b3b3b;
+	font-size:20px;
+	padding:20px;
+	margin-top:60px;
+	text-align:right;
+	color:white;
+}
+::selection{
+	background:teal;
+	color:hotpink;
+}

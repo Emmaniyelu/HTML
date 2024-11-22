@@ -1,0 +1,36 @@
+<!-- interest amount calc -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="interest.css">
+  </head>
+  <body>
+	<div id="main">
+	  <h2>Interest Calculator</h2>
+	  <div>
+	    <label for="pamt">Loan Amount</label> <br>
+		<input type="text" id="pamt" autofocus> 
+		<span>&#8377;</span>
+	  </div>
+	  <div>
+		<label for="time">Months</label> <br>
+		<input type="text" id="time">
+		<span>(M)</span>
+	  </div>	  
+	  <div>
+		<label for="roi">Rate of Interest</label> <br>
+		<input type="text" id="roi" maxlength="2">
+		<span>%</span>
+	  </div>
+	  <div>
+		<button onclick="getAmount()">Get Amount</button>
+	  </div>
+	  <div>
+		<output id="intAmt"></output> <bR>
+		<output id="totAmt"></output>
+	  </div>	
+	</div>
+	<script src="interest.js"></script>
+  </body>
+</html>
